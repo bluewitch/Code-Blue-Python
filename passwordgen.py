@@ -2,6 +2,7 @@
 #https://www.facebook.com/exploitsec.gov
 #Password Generator
 #No Dictionary words only scrambled numbers,symbols, and letters
+# ~dwulf
 
 import random
 
