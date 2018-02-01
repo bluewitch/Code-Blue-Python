@@ -6,5 +6,10 @@ Demo Python Code
 An assortment of code in Python, for demonstration only.
 
 Machine Learning Code
+=====================
+block.py
+block_param.py
+blockchain.py
+
 
 Jupyter Notebook
