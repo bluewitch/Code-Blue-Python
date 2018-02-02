@@ -13,5 +13,8 @@ Machine Learning Code
 
 **blockchain.py**
 
+Neural Network Code
+====================
+**NeuralNetworkDemo.py**
 
 Jupyter Notebook
