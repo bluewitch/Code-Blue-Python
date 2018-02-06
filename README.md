@@ -3,7 +3,8 @@ Code-Blue-Python
 
 Demo Python Code
 
-An assortment of code in Python, for demonstration only.
+An assortment of code in Python, for demonstration only.  All in Python
+(my favorite language).
 
 Machine Learning Code
 =====================
