@@ -19,3 +19,6 @@ Neural Network Code
 **NeuralNetworkDemo.py**
 
 Jupyter Notebook
+=====================
+
+All Code Self Contained
