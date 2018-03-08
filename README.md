@@ -25,3 +25,4 @@ All Code Self Contained
 
 Regular Expressions
 ======================
++ .       - Any Character Except New Line
