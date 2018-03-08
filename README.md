@@ -36,3 +36,16 @@ Regular Expressions
 + \b    - Word Boundary
 + \B    - Not a Word Boundary
 + \.    - A period
+
+**Modifiers:**
++ {1,3} we're expecting 1-3
++ + Match 1 or more
++ ? Match 0 or 1
++ * Match 0 or more
++ $ Match the end of a string
++ ^ Matching the begining of a string
++ | either or
++ [] Matches Characters in brackets range or "variance"
++ [^ ]    - Matches Characters NOT in brackets
++ {x} expecting "x" amount
++ ( )     - Group
