@@ -25,4 +25,13 @@ All Code Self Contained
 
 Regular Expressions
 ======================
-+ .       - Any Character Except New Line
+**Identifiers:**
++ .     - Any Character Except New Line
++ \d 		- Any Digit (0-9)
++ \D 		- Any Not a Digit (0-9)
++ \s    - Any space
++ \S    - Anything except a space
++ \w    - Any character
++ \W    - Anything except a character
++ \b    - The whitespace around words
++ \.    - A period
