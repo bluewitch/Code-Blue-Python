@@ -37,11 +37,15 @@ Regular Expressions
 + \B    - Not a Word Boundary
 + \.    - A period
 
+**Quantifiers:**
++ *       - Match 0 or More
++ +       - Match 1 or More
++ ?       - Match 0 or 1
++ {3}     - Exact Number
++ {3,4}   - Range of Numbers (Minimum, Maximum), we're expecting 3,4
+
+
 **Modifiers:**
-+ {1,3} we're expecting 1-3
-+ + Match 1 or more
-+ ? Match 0 or 1
-+ * Match 0 or more
 + $ Match the end of a string
 + ^ Matching the begining of a string
 + | either or
@@ -49,3 +53,11 @@ Regular Expressions
 + [^ ]    - Matches Characters NOT in brackets
 + {x} expecting "x" amount
 + ( )     - Group
+
+
+
+
+
+#### Sample Regexs ####
+
+[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
