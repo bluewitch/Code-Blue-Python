@@ -33,5 +33,6 @@ Regular Expressions
 + \S    - Anything except a space
 + \w    - Any character
 + \W    - Anything except a character
-+ \b    - The whitespace around words
++ \b    - Word Boundary
++ \B    - Not a Word Boundary
 + \.    - A period
