@@ -39,8 +39,8 @@ Regular Expressions
 + \.    - A period
 
 **Quantifiers:**
-+  *       Match 0 or More
-+  +       Match 1 or More
++  \*       Match 0 or More
++  \+       Match 1 or More
 +  ?       Match 0 or 1
 +  {3}     Exact Number
 +  {3,4}   Range of Numbers (Minimum, Maximum), we're expecting 3,4
