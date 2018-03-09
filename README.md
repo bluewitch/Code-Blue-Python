@@ -4,7 +4,8 @@ Code-Blue-Python
 Demo Python Code
 
 An assortment of code in Python, for demonstration only.  All in Python
-(my favorite language).
+(my favorite language).  This repository is just for basic code principles 
+and is not meant for full scale production.
 
 Machine Learning Code
 =====================
