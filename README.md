@@ -26,6 +26,11 @@ All Code Self Contained
 
 Regular Expressions
 ======================
+
+RE, is the python library to be imported for this, a powerful 
+tool to manipulate the sorting and indexing of data.
+
+
 **Identifiers:**
 + .     - Any Character Except New Line
 + \d 		- Any Digit (0-9)
