@@ -35,6 +35,6 @@ hall_of_heros =[ {'Naval Ravikant', 'https://twitter.com/naval',''},
                  {'Bryan Johnson ','https://twitter.com/bryan_johnson','http://bit.ly/2FNZi68'},
                  {'Tristan Harris','https://twitter.com/tristanharris','http://bit.ly/2Dni4vD'},
                  {'Juan Benet','https://github.com/jbenet',''},
-                 {'Trent McConaghy','','http://bit.ly/2FDXzwz'},
+                 {'Trent McConaghy','','http://bit.ly/2FDXzwz'}
 
                  ]
