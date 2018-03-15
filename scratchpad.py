@@ -1,8 +1,8 @@
 
-import re
-import os
-import urllib
-import csv
+import re #Regular Expressions library for string searches
+import os #Operating System library for command line manipulation
+import urllib #URL Library for calling calling web pages
+import csv #Comma Seperated Values to read files seperated by commas
 
 
 with open('names.csv', 'r') as csv_file:
