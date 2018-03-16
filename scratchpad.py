@@ -64,6 +64,8 @@ blockchain_urls = [{'Reatime Blockchain Monitor', 'https://blocks.wizb.it/'},
                    {'https://blockstack.org/', ''},
                    ]
 
+machinelearning_urls =[{'Keras','A Python Library ontop of Tensorflow','https://keras.io/'}]
+
 
 developers_urls =[{'Jupyter Notebook',
 				   'A notebook that demonstrates code', 
