@@ -1,8 +1,8 @@
 
-import re #Regular Expressions library for string searches
-import os #Operating System library for command line manipulation
-import urllib #URL Library for calling calling web pages
-import csv #Comma Seperated Values to read files seperated by commas
+import re
+import os
+import urllib
+import csv
 
 
 with open('names.csv', 'r') as csv_file:
@@ -60,6 +60,27 @@ ewallet_urls = {'https://myetherwallet.github.io/'}
 
 blockchain_urls = [{'Reatime Blockchain Monitor', 'https://blocks.wizb.it/'},
 				   {'Crypto Currecny Activity', 'https://coincheckup.com/analysis/github'},
-				   {'',''},
+				   {'Presiam (PRSM) is a new private blockchain social networking app','https://www.presiam.com/'},
                    {'https://blockstack.org/', ''},
                    ]
+
+
+developers_urls =[{'Jupyter Notebook',
+				   'A notebook that demonstrates code', 
+				   'http://jupyter.org/'},
+
+							{'Node Red',
+							 'Node-RED is a programming tool for wiring together hardware devices, APIs and online services',
+							 'https://nodered.org/'},
+
+							{'JSON Formatter',
+							 'Formats Data for JSON',
+							 'https://jsonformatter.org/'},
+
+							{'',''},
+							{'',''},
+							{'',''},
+							{'',''},
+							{'',''},
+							{'',''},
+							{'',''}]
