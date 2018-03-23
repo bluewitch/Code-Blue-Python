@@ -11,6 +11,7 @@ sites = 'google yahoo cnn msn'.split()
 
 pattern = re.compile(r'<title>+.*</title>+', re.I | re.M)
 
+#Cycle a loop s in sites
 for s in sites:
 	print('Searching: ' + s)
 	try:
