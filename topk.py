@@ -42,22 +42,22 @@ When I found this snippet, it was basically the whole solution.
 
 But there are two ways of doing this, through sorting and through        
 """
-Approach #1: Sorting [Accepted]
-Intuition and Algorithm
 
+# Python 3
 
-
-Python
-
-# Sorting
+# Sorting Method
 # Count the frequency of each word, and sort the words with a custom 
 # ordering relation that uses these frequencies. Then take the best k of # them.
 
-    def topKFrequent(words, k):
-        count = collections.Counter(words)
-        candidates = count.keys()
-        candidates.sort(key = lambda w: (-count[w], w))
-        return candidates[:k]
+words = ["i", "love", "leetcode", "i", "love", "coding","i", "leetcode", "dud", "dud", "dud"]
+def topKFrequent(words, k):
+    count = collections.Counter(words)
+    candidates = sorted(count.keys(), key = lambda w: (-count[w], w))
+    return candidates[:k]
+    
+topKFrequent(words, 3)
+
+['dud', 'i', 'leetcode']
 
 
 # Heaping
