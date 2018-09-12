@@ -10,5 +10,7 @@ import sys
 
 if __name__ == '__main__':
     #N = int(input())
-    # One liner in a lambda function
-    print((lambda N:'Weird' if N % 2 else 'Not Weird')(int(input())))
+
+    N = int(input().strip())
+    # Done with Regular Expressions
+    print("Not "*bool(re.match(r'^(..)(\1|\1{10,})?$','1'*N))+"Weird")
