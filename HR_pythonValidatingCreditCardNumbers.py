@@ -1,5 +1,9 @@
 import re
-
+"""
+Demonstration of using the Regular Expression libraries in Python to validate credit card numbers, 
+we pre-compile our re, into TESTER and run a for loop to iterate through the interger input string, 
+using .strip method to clean it up and spitting out a valid credit card number using if/else
+"""
 TESTER = re.compile(
     r"^"
     r"(?!.*(\d)(-?\1){3})"
